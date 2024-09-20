@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadir A. Elzouki | Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+.skills-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 8px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover; /* Ensures the image covers the card area without distortion */
+}
+
+.card-body {
+    text-align: left;
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    color: blue; /* Change this to your desired shade of blue */
+}
+
+/* Ensure the color change applies to active links */
+.navbar-nav .nav-item.active .nav-link {
+    color: darkblue; /* Change this to a darker shade of blue for active links */
+}
+
+/* Adjust the navbar to fit well on different screen sizes */
+.navbar {
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border from the toggler */
+}
+
+/* Ensure that the navbar collapses properly on smaller screens */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center; /* Center align menu items on smaller screens */
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.5rem 1rem; /* Add padding for better touch targets */
+    }
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.project {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+    .hero { background: #f8f9fa; padding: 60px 0; }
+    .section { padding: 60px 0; }
+  </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nadir A. Elzouki</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#licenses">Licenses & Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+                <li class="nav-item"><a class="nav-link" href="#organizations">Organizations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Hi, I am Nadir 👋</h1>
+            <p class="lead">Full Stack Developer and Freelancer</p>
+            <a class="btn btn-primary btn-lg" href="#contact">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm Nadir and I'm a full stack developer and freelancer. I have a passion for building and designing user-friendly software. I'm also a freelancer and available to work, and I can help you build your next dream project.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <!-- Skill Item -->
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="C++" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">C++</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" alt="C#" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">C#</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo.png" alt="Python" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Python</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://www.php.net/images/logos/php-logo.svg" alt="PHP" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">PHP</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://w7.pngwing.com/pngs/405/878/png-transparent-java-logo-java-runtime-environment-computer-icons-java-platform-standard-edition-java-miscellaneous-text-logo-thumbnail.png" alt="Java" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Java</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://logodownload.org/wp-content/uploads/2019/12/windows-logo.png" alt="Windows" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Windows</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Linux_logo.jpg" alt="Linux" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Linux</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQLYucWMglagUdrnkBxQ1GEEM0nP9J8cj8g&s" alt="Unix" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Unix</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://i.pinimg.com/736x/5e/30/53/5e3053ed71b367c5e2cc4ecf4099e112.jpg" alt="Apple" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Apple</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://w7.pngwing.com/pngs/936/844/png-transparent-git-hd-logo-thumbnail.png" alt="Git" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Git</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://toppng.com/uploads/preview/github-logo-png-hd-11659780126wgzczltlbm.png" alt="GitHub" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">GitHub</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO5ryTY9VShCV5uJWhoBXkcxxlFB8O5bbxGA&s" alt="CSS" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">CSS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">HTML</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt="Bootstrap" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="Typescript" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Typescript</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/640px-Sql_data_base_with_logo.png" alt="SQL" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">SQL</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTiCIxcGExISpbuEFg0caOI27K-BVSjybQQ&s" alt="Swift" class="img-fluid" style="width: 50px;">
+                            <h5 class="card-title">Swift</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .skill-logo {
+            width: 40px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 5px;
+        }
+    </style>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="accordion" id="experienceAccordion">
+                <!-- Apple -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Apple - Technical Specialist
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#experienceAccordion">
+                        <div class="card-body">
+                            <p><strong>Duration:</strong> Jun 2022 - Present</p>
+                            <p><strong>Location:</strong> Boca Raton, Florida, United States</p>
+                            <p><strong>Skills:</strong> Skilled Multi-tasker, Computer Science, Help Desk Support, Troubleshooting, Skill Development</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Freelancer.com -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Freelancer.com - Freelance Web Developer
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#experienceAccordion">
+                        <div class="card-body">
+                            <p><strong>Duration:</strong> 2015 - Present</p>
+                            <p><strong>Location:</strong> Boca Raton, Florida, United States</p>
+                            <p><strong>Responsibilities:</strong> Detailed list provided</p>
+                            <p><strong>Skills:</strong> Detailed list provided</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Geek Squad -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Geek Squad - Consultation Agent
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#experienceAccordion">
+                        <div class="card-body">
+                            <p><strong>Duration:</strong> Oct 2017 - May 2022</p>
+                            <p><strong>Location:</strong> Boca Raton, Florida, United States</p>
+                            <p><strong>Responsibilities:</strong> Detailed list provided</p>
+                            <p><strong>Impact:</strong> Increased sales of Total Tech Support™ membership, reduced complaints by 10%</p>
+                            <p><strong>Awards:</strong> Employee of the Year in 2019 MVP FY'20 YTD</p>
+                            <p><strong>Skills:</strong> Skilled Multi-tasker, Computer Science, Help Desk Support, Troubleshooting, Skill Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="container">
+        <h2 class="mb-4 text-center">Projects</h2>
+        <div class="row">
+
+            <!-- My Portfolio Project -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://yt3.ggpht.com/2q9s2L8896TSnMksygBxoSlOPU5K8qWvSYgB3ALug6y6bEjz1COq_ab9icTeEfrfimjwi577-sft=s991-c-fcrop64=1,3b820000c47dffff-rw-nd-v1" alt="My Portfolio" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">My Portfolio</h5>
+                        <p class="card-text"><strong>Jan 2024 - Mar 2024</strong></p>
+                        <p>My portfolio showcases my skills and projects as a full stack developer. Developed using JavaScript, HTML, CSS, and Bootstrap, it highlights my passion for creating user-friendly software.</p>
+                        <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_PORTFOLIO_REPO" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mars Defense Game -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHWR57I73hxAw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726019496967?e=1727056800&v=beta&t=bE72pDCGLXa8vtHAkvCae8rc7Em8mqDMz_Xkwm2YfyE" alt="Mars Defense Game" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mars Defense Game</h5>
+                        <p class="card-text"><strong>Mar 2024 - Sep 2024</strong></p>
+                        <p>Developed a 2D action game using Python and Pygame where players control a tank to defend against enemy platforms and UFOs on Mars.</p>
+                        <a href="https://github.com/Nelzouki22/Mars-Defense-Game" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Basic Movement and Key Presses -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQG_-Buom3rQ5g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726195700454?e=1727056800&v=beta&t=AduOuWZzOm6aJqkhXZeiFPwihD51FG3s-i76-L7k-jM" alt="Basic Movement and Key Presses" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic Movement and Key Presses</h5>
+                        <p class="card-text"><strong>Jan 2024 - Mar 2024</strong></p>
+                        <p>A beginner-friendly project that demonstrates how to build a simple game environment using the Pygame library in Python.</p>
+                        <a href="https://github.com/Nelzouki22/Basic-Movement-Key-Presses" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pong Game -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQEbsicAEZzCJQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726366636353?e=1727056800&v=beta&t=3yeSIopzYcXeugiEuPgTpRp7_V-0qQPwLozrGjooFWw" alt="Pong Game" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Pong Game</h5>
+                        <p class="card-text"><strong>Jan 2024 - Mar 2024</strong></p>
+                        <p>A classic implementation of the Pong game using Pygame, where players control paddles to hit the ball back and forth.</p>
+                        <a href="https://github.com/Nelzouki22/Pong-Game" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Licenses & Certifications Section -->
+    <section id="licenses" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Licenses & Certifications</h2>
+            <div class="accordion" id="licensesAccordion">
+                <!-- IBM IT Support Professional Certificate -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                IBM IT Support Professional Certificate
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Coursera</p>
+                            <p><strong>Issued:</strong> Aug 2024</p>
+                            <p><strong>Credential ID:</strong> Q04D7GL1NLCM</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/specialization/certificate/Q04D7GL1NLCM" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Meta Front-End Developer -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Meta Front-End Developer
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Coursera</p>
+                            <p><strong>Issued:</strong> Nov 2023</p>
+                            <p><strong>Credential ID:</strong> DJA775B5XV6P</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/specialization/certificate/DJA775B5XV6P" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- SAP Technology Consultant -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                SAP Technology Consultant
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Coursera</p>
+                            <p><strong>Issued:</strong> Nov 2023</p>
+                            <p><strong>Credential ID:</strong> 2H3MXNYARXRC</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/professional-cert/2H3MXNYARXRC" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Google Cybersecurity -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Google Cybersecurity
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Coursera</p>
+                            <p><strong>Issued:</strong> May 2023</p>
+                            <p><strong>Credential ID:</strong> BPYF9Y3S6R9B</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/professional-cert/BPYF9Y3S6R9B" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Google IT Support Certificate -->
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Google IT Support Certificate
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Coursera</p>
+                            <p><strong>Issued:</strong> May 2023</p>
+                            <p><strong>Credential ID:</strong> 5NG2FSZG5WVN</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/professional-cert/5NG2FSZG5WVN" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Meta iOS Developer -->
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Meta iOS Developer
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Coursera</p>
+                            <p><strong>Issued:</strong> May 2023</p>
+                            <p><strong>Credential ID:</strong> TV4PMHGW7G2Y</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/professional-cert/TV4PMHGW7G2Y" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Palo Alto Networks Cybersecurity Professional Certificate -->
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Palo Alto Networks Cybersecurity Professional Certificate
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> Palo Alto Networks</p>
+                            <p><strong>Issued:</strong> Apr 2023</p>
+                            <p><strong>Credential ID:</strong> 7F53MRCFR4ZJ</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/specialization/certificate/7F53MRCFR4ZJ" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- IBM Cybersecurity Analyst -->
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                IBM Cybersecurity Analyst
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#licensesAccordion">
+                        <div class="card-body">
+                            <p><strong>Issued by:</strong> IBM</p>
+                            <p><strong>Issued:</strong> Mar 2023</p>
+                            <p><strong>Credential ID:</strong> XTY8VHFWX8VY</p>
+                            <a class="btn btn-primary" href="https://www.coursera.org/account/accomplishments/specialization/certificate/XTY8VHFWX8VY" target="_blank">Show Credential</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Education</h2>
+            <div class="row mb-4">
+                <div class="col-md-6 text-center">
+                    <img src="https://academy.edu.ly/storage/media/f032ecd3-042a-4a35-a9b4-372133f1a57e/1D921F33-14B9-44BA-B4A6-8E541ACA455F.webp" alt="Libyan Academy" class="img-fluid mb-2" style="width: 100px;">
+                    <h4>Libyan Academy</h4>
+                    <p><strong>Minor Master Degree:</strong> Information Technology</p>
+                    <p><strong>Duration:</strong> Aug 2005 - Jan 2009</p>
+                    <p><strong>Grade:</strong> 3.25</p>
+                    <p><strong>Relevant Coursework:</strong> Programming Languages, Software Engineering, Computer Network, Fuzzy Logic, Information Modeling</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://uob.edu.ly/wp-content/uploads/2020/04/University-of-Benghazi-logo-2020.png" alt="University of Benghazi" class="img-fluid mb-2" style="width: 100px;">
+                    <h4>University of Benghazi (Garyounis)</h4>
+                    <p><strong>Bachelor Degree:</strong> Computer Science</p>
+                    <p><strong>Duration:</strong> Sep 2000 - Jul 2004</p>
+                    <p><strong>Grade:</strong> 2.9</p>
+                    <p><strong>Relevant Coursework:</strong> Algorithms, Data Structures, Operating Systems, Database Management, Artificial Intelligence, Software Development, Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Languages Section -->
+    <section id="languages" class="section">
+        <div class="container">
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>English:</strong> Native Proficiency</li>
+                <li><strong>Arabic:</strong> Native Proficiency</li>
+                <li><strong>Italain:</strong> Elementary proficiency</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Organizations Section -->
+    <section id="organizations" class="section bg-light">
+        <div class="container">
+            <h2>Organizations</h2>
+            <div class="accordion" id="organizationsAccordion">
+                <!-- South Florida Python Users Group (SoFloPy) -->
+                <div class="card">
+                    <div class="card-header" id="orgOne">
+                        <h5 class="mb-0 d-flex align-items-center">
+                            <img src="https://media.licdn.com/dms/image/v2/C560BAQEwTNaVJ6roqw/company-logo_200_200/company-logo_200_200/0/1631388915626?e=2147483647&v=beta&t=f2etp_AYnhfU8eeFh49e-2bHddfVOrx-ljkA4BVmjtU" alt="SoFloPy Logo" class="me-2" style="width: 40px; height: 40px;">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#orgOneContent" aria-expanded="true" aria-controls="orgOneContent">
+                                South Florida Python Users Group (SoFloPy)
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="orgOneContent" class="collapse show" aria-labelledby="orgOne" data-parent="#organizationsAccordion">
+                        <div class="card-body">
+                            <p><strong>Member</strong> · Jan 2020 - Present</p>
+                            <p>The South Florida Python Users Group (SoFloPy) exists to unite and grow the Python (programming language) community of South Florida. With events in the Palm Beach, Boca Raton, Ft. Lauderdale, and Miami areas.</p>
+                            <p>The group is a branch of SoFloPHP. For more information about PHP, please see <a href="http://soflophp.org" target="_blank">soflophp.org</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- OFFICIAL LFC SUPPORTERS CLUBS -->
+                <div class="card">
+                    <div class="card-header" id="orgTwo">
+                        <h5 class="mb-0 d-flex align-items-center">
+                            <img src="https://pbs.twimg.com/profile_images/1131743094494367744/6Q7qJolh_400x400.png" alt="LFC Logo" class="me-2" style="width: 40px; height: 40px;">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#orgTwoContent" aria-expanded="false" aria-controls="orgTwoContent">
+                                OFFICIAL LFC SUPPORTERS CLUBS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="orgTwoContent" class="collapse" aria-labelledby="orgTwo" data-parent="#organizationsAccordion">
+                        <div class="card-body">
+                            <p><strong>Member</strong> · Jan 2018 - Present</p>
+                            <p>Liverpool Football Club has over 300 Official LFC Supporters Clubs (OLSCs) in 100 countries worldwide. Our OLSCs provide a valuable service to loyal LFC fans living in the local area.</p>
+                            <p>For more information, visit <a href="https://www.liverpoolfc.com/fans/official-lfc-supporters-clubs" target="_blank">liverpoolfc.com</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bianconeri - Juventus Fans -->
+                <div class="card">
+                    <div class="card-header" id="orgThree">
+                        <h5 class="mb-0 d-flex align-items-center">
+                            <img src="https://logos-world.net/wp-content/uploads/2020/06/Juventus-FC-Logo-2017-present.jpg" alt="Juventus Logo" class="me-2" style="width: 40px; height: 40px;">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#orgThreeContent" aria-expanded="false" aria-controls="orgThreeContent">
+                                Bianconeri - Juventus Fans
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="orgThreeContent" class="collapse" aria-labelledby="orgThree" data-parent="#organizationsAccordion">
+                        <div class="card-body">
+                            <p><strong>Member</strong> · Jan 2014 - Present</p>
+                            <p>Official Fan Clubs, Fan Experience, and other services reserved for Bianconeri, the black-and-white fans of Juventus Club.</p>
+                            <p>For more information, visit <a href="https://www.juventus.com/en/bianconeri/" target="_blank">juventus.com</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="#">here</a>.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to get in touch with me via email at <a href="mailto:elzoukigroup2018@gmail.com"><i class="fas fa-envelope"></i> elzoukigroup2018@gmail.com</a>, follow me on <a href="https://www.linkedin.com/in/nadir-elzouki-40679a1a9/?profileId=ACoAADC0QsYBFUKy48Zd-9qCBPFJWsDyxOha1yo"><i class="fab fa-linkedin"></i> LinkedIn</a>, and follow me on <a href="https://github.com/Nelzouki22"><i class="fab fa-github"></i> GitHub</a>.</p>
+        </div>
+    </section>
+
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>Check out my latest blog posts <a href="https://nadiraelzouki.blogspot.com">here</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Nadir A. Elzouki. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
